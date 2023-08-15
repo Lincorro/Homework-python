@@ -1,28 +1,28 @@
 # Задача 22: Даны два неупорядоченных набора целых чисел (может быть, с повторениями). Выдать без повторений в порядке возрастания все те числа, которые встречаются в обоих наборах.
 # Пользователь вводит 2 числа. n — кол-во элементов первого множества. m — кол-во элементов второго множества. Затем пользователь вводит сами элементы множеств.
 
-# n =  int(input("Inpum quantity numbers first list "))
-# first_list = {0}
-# first_list.remove(0)
+n =  int(input("Inpum quantity numbers first list "))
+first_list = {0}
+first_list.remove(0)
 
-# i = 1
-# j = 1
-# while i != n +1:
-#     temp = int((input(f"inpun number {i} = ")))
-#     first_list.add(temp)
-#     i +=1
+i = 1
+j = 1
+while i != n +1:
+    temp = int((input(f"inpun number {i} = ")))
+    first_list.add(temp)
+    i +=1
 
-# m = int(input("Inpum quantity numbers second list "))
-# sekond_list = {0}
-# sekond_list.remove(0)
-# while j != m +1:
-#     temp = int((input(f"inpun number {j} = ")))
-#     sekond_list.add(temp)
-#     j +=1
+m = int(input("Inpum quantity numbers second list "))
+sekond_list = {0}
+sekond_list.remove(0)
+while j != m +1:
+    temp = int((input(f"inpun number {j} = ")))
+    sekond_list.add(temp)
+    j +=1
 
-# temp = first_list.intersection(sekond_list)
-# temp = list(temp)
-# print(temp)
+temp = first_list.intersection(sekond_list)
+temp = list(temp)
+print(temp)
 
 
 # Задача 24: В фермерском хозяйстве в Карелии выращивают чернику. Она растёт на круглой грядке, причём кусты высажены только по окружности. Таким образом, у каждого куста есть ровно два соседних. Всего на грядке растёт N кустов.
